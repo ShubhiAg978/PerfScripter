@@ -1,0 +1,35 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tidyjs/tidy": "^2.5.2",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "fast-csv": "^5.0.0",
+    "graphology": "^0.25.4",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "papaparse": "^5.4.1",
+    "vis-network": "^9.1.9",
+    "xhr2": "^0.2.1",
+    "xmlbuilder": "^15.1.1"
+  }
+}

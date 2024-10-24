@@ -1,0 +1,66 @@
+.login > section {
+  @include container(900px, unset, 2rem);
+  min-height: 80%;
+  background-color: $color2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  > form {
+    @include flexBox(column, center, flex-start, 2rem);
+    @include inputs;
+    padding-top: 10px;
+
+    .additional-fields-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .additional-field {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        input {
+          width: 100%;
+        }
+      }
+
+      button {
+        margin-top: 1rem;
+        @include styledText(0.9rem);
+        @include myButton(18.75rem, 1rem);
+      }
+    }
+
+    .header-fields-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .header-field {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        input {
+          width: 100%;
+        }
+      }
+
+      button {
+        margin-top: 1rem;
+        @include styledText(0.9rem);
+        @include myButton(18.75rem, 1rem);
+      }
+    }
+
+    button {
+      @include styledText(0.9rem);
+      @include myButton(18.75rem, 1rem);
+    }
+  }
+}
+
+.login {
+  padding-top: 30px;
+}
