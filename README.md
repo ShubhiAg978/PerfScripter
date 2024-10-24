@@ -23,13 +23,13 @@ To get started with API Scripter, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/ShubhiAg978/APIScriptGenerator.git
+   git clone https://github.com/ShubhiAg978/PerfScripter.git
    ```
 
 2. **Navigate to the cloned directory**:
 
    ```bash
-   cd APIScriptGenerator
+   cd PerfScripter
    ```
 
 3. **Install dependencies for both the backend and frontend**:
@@ -82,3 +82,9 @@ To run the API Scripter, use the following commands:
 - **Material-UI Interface**: A responsive frontend built using Material-UI for an intuitive and modern user experience, allowing users to upload CSV files, view generated scripts, and manage settings.
 
 - **Scalability and Modularity**: The application is designed to scale, with a modular architecture that makes it easy to extend functionality or integrate additional performance testing tools.
+
+## Demo Video
+
+https://github.com/user-attachments/assets/f6a9f174-f27f-4377-b3b0-d8f40cc69aa9
+
+
